@@ -1,0 +1,28 @@
+body.no-scroll {
+  overflow: hidden;
+}
+
+.editor-post .ql-container.ql-snow {
+  max-height: 1000px !important;
+  height: 1000px !important;
+}
+
+.editor-comment .ql-container.ql-snow {
+  max-height: 300px !important;
+  height: auto !important;
+}
+.editor-comment img {
+  max-width: 50% !important; /* Giới hạn ảnh chỉ chiếm 50% chiều ngang */
+  height: auto; /* Giữ nguyên tỷ lệ ảnh */
+  display: block; /* Đảm bảo ảnh không bị ảnh hưởng bởi nội dung xung quanh */
+}
+
+.content-comment img {
+  max-width: 50% !important;
+  height: auto;
+  display: block;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
